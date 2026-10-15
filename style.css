@@ -1,0 +1,19 @@
+body{margin:0;font-family:Georgia,serif;background:#faf5ff;color:#2d2340;line-height:1.5}
+nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#6b3fa0;padding:8px 16px}
+nav ul{display:flex;flex-wrap:wrap;gap:4px 14px;list-style:none;margin:0;padding:0;align-items:center}
+nav a{color:#fff;text-decoration:none;padding:4px 8px;border-radius:6px}
+nav a:hover{background:#8a5cc4}
+nav a.active{background:#f2a6d0;color:#2d2340;font-weight:bold}
+main{max-width:900px;margin:0 auto;padding:16px}
+.sub{background:#efe3fb;padding:8px 12px;border-radius:8px}
+.sub a{margin-right:12px}
+figure{margin:12px 0}figcaption{font-size:.9em;color:#665a80}
+table{border-collapse:collapse}td,th{border:1px solid #6b3fa0;padding:8px}
+.bgtable{background:url(img/bg.svg)}
+label{display:block;margin:6px 0}
+input,select,button{font:inherit;padding:4px}
+fieldset{margin:16px 0}
+.passport{position:relative;width:840px;height:300px;background:url(img/passport_blank.svg);max-width:100%}
+.passport img{position:absolute;left:30px;top:40px;width:130px;height:170px;object-fit:cover}
+.passport p{position:absolute;margin:0;left:450px;font-size:20px}
+@media(max-width:700px){.passport{overflow-x:auto}}
